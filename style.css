@@ -6,7 +6,10 @@
 }
 
 /* child selector */
-/* All the <li> inside #menu */
-#menu li {
-   
-}
+/* All the <a> inside <li> inside #menu */
+#menu li a {
+   text-decoration: none;
+   color: white;
+   padding:8px;
+   display:block; /* must be block before can have padding */
+}    
