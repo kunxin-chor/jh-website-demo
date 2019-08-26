@@ -1,0 +1,12 @@
+#menu {
+    display:flex;
+    list-style:none;
+    justify-content:space-evenly;
+    background-color:grey;
+}
+
+/* child selector */
+/* All the <li> inside #menu */
+#menu li {
+   
+}
